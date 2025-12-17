@@ -31,7 +31,11 @@
     .archive-grid {
         grid-template-columns: 1fr;
     }
+    .hero-badge {
+       margin-top: 4vh;
+    }
 }
+
 
 
 /* =====================================================
@@ -130,11 +134,10 @@
     color: #fff !important;
 }
 
+
 /* ===== HAMBURGER BUTTON ===== */
 #hamburger {
     display: none;
-    flex-direction: column;
-    justify-content: space-around;
     width: 32px;
     height: 28px;
     background: transparent;
@@ -143,30 +146,51 @@
     padding: 0;
     z-index: 1001;
     position: relative;
-    margin-left: auto;
+    margin-left: auto; 
+    margin-bottom: 1vh;
+
 }
 
+/* linie */
 #hamburger span {
+    position: absolute;
+    left: 0;
     width: 100%;
     height: 3px;
     background: var(--gold, #d4af37);
     border-radius: 2px;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 0.3s ease;
     display: block;
 }
 
-/* Animacja krzyżyka */
+/* burger */
+#hamburger span:nth-child(1) {
+    top: 0;
+}
+
+#hamburger span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#hamburger span:nth-child(3) {
+    bottom: 0;
+}
+
+/* X */
 #hamburger.open span:nth-child(1) {
-    transform: rotate(45deg) translate(9px, 9px);
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
 }
 
 #hamburger.open span:nth-child(2) {
     opacity: 0;
-    transform: translateX(-20px);
 }
 
 #hamburger.open span:nth-child(3) {
-    transform: rotate(-45deg) translate(9px, -9px);
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
 }
 
 /* ===== MOBILE MENU ===== */
