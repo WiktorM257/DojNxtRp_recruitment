@@ -148,7 +148,7 @@
     z-index: 1001;
     position: relative;
     margin-left: auto; 
-    margin-top: -5vh;
+    margin-top: -4.4vh;
     margin-bottom: 1vh;
 
 }
@@ -198,11 +198,11 @@
 /* ===== MOBILE MENU ===== */
 .mobile-menu {
     position: fixed;
-    top: 67px;
+    top: 62px;
     right: -100%;
     width: 300px;
     max-width: 85vw;
-    height: calc(100vh - 80px);
+    height:100vh;
     background: linear-gradient(180deg, rgba(15, 15, 15, 0.98) 0%, rgba(20, 20, 20, 0.95) 100%);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
