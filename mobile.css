@@ -148,7 +148,7 @@
     z-index: 1001;
     position: relative;
     margin-left: auto; 
-    margin-top: -5.5vh;
+    margin-top: -7vh;
     margin-bottom: 1vh;
     margin-right: 5vw;
 
@@ -312,4 +312,5 @@
 /* Disable scroll na body gdy menu otwarte */
 body.menu-open {
     overflow: hidden;
+
 }
