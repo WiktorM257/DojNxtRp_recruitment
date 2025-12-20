@@ -135,6 +135,19 @@
     color: #fff !important;
 }
 
+.mobile-main-menu,
+.mobile-structure-menu {
+    display: none;
+}
+
+.mobile-menu.show-main .mobile-main-menu {
+    display: block;
+}
+
+.mobile-menu.show-structure .mobile-structure-menu {
+    display: block;
+}
+
 
 /* ===== HAMBURGER BUTTON ===== */
 #hamburger {
@@ -148,7 +161,7 @@
     z-index: 1001;
     position: relative;
     margin-left: auto; 
-    margin-top: -7vh;
+    margin-top: -5.5vh;
     margin-bottom: 1vh;
     margin-right: 5vw;
 
@@ -312,5 +325,4 @@
 /* Disable scroll na body gdy menu otwarte */
 body.menu-open {
     overflow: hidden;
-
 }
