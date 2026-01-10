@@ -1,4 +1,3 @@
-/* ========== RECRUITMENT SECTION - GRANATOWA PALETA ========== */
 
 .recruitment {
     background: #162e51;
@@ -72,7 +71,6 @@
     50% { opacity: .5; }
 }
 
-/* Requirements */
 .requirements {
     margin: 1.5rem 0;
 }
@@ -102,7 +100,6 @@
     font-size: .8rem;
 }
 
-/* Form */
 .apply-form {
     margin-top: 1.5rem;
 }
@@ -152,4 +149,5 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+
 }
