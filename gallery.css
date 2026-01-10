@@ -1,4 +1,3 @@
-/* ========== GALLERY - BROWN ========== */
 
 .gallery {
     background: linear-gradient(180deg, var(--dark) 0%, var(--primary) 100%);
@@ -105,4 +104,5 @@ a.gallery-item .gallery-caption p {
 .gallery-item:hover .gallery-caption p,
 .gallery-item:hover .gallery-placeholder span {
     color: var(--light);
+
 }
